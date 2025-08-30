@@ -26,19 +26,19 @@ Video walkthrough: https://drive.google.com/file/d/1LDZ6FLlLHyfMJusCO8mFxq4JD9I0
 
 ## Run Locally  
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/yourusername/personal-library.git
 cd personal-library
 
-# 2. Backend Setup
+### 2. Backend Setup
 cd backend
 npm install
 npm run dev
-# Backend will start at http://localhost:5555
+### Backend will start at http://localhost:5555
 
-# 3. Frontend Setup (open a new terminal tab/window)
+### 3. Frontend Setup (open a new terminal tab/window)
 cd frontend
 npm install
 npm run dev
-# Frontend will run at http://localhost:5173
+### Frontend will run at http://localhost:5173
 
