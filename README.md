@@ -1,6 +1,3 @@
-Got it! Here’s the **entire README.md content in a single block**, ready to save as `README.md`—no breaks, no extra cells:
-
-````markdown
 # Books Library App
 
 A modern **MERN stack** (MongoDB, Express, React, Node.js) application for managing a personal book library.  
@@ -145,9 +142,3 @@ Recommended deployment platforms:
 
 This project is open-source under the **MIT License**.
 
-```
-
-This is **all in one single `.md` file**, ready to use.  
-
-If you want, I can also make a **version with badges, Live Demo link, and screenshots** to make it look professional on GitHub. Do you want me to do that?
-```
