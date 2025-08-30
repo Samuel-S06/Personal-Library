@@ -1,144 +1,44 @@
-# Books Library App
+# Books Library App  
 
-A modern **MERN stack** (MongoDB, Express, React, Node.js) application for managing a personal book library.  
-Users can **view, add, edit, and delete books**, with options for **table or card display**. The app features a sleek **dark theme** using **TailwindCSS** and responsive design.
-
----
-
-## Features
-
-- Display books in **table** or **card** view  
-- Add new books with title, author, and publish year  
-- Edit or delete existing books  
-- Modal view for quick book details  
-- Dark theme with contrasting card design  
-- Fully responsive layout  
-- RESTful API backend with Express and MongoDB  
+A personal library application built with the **MERN stack** (MongoDB, Express, React, Node.js). Users can view, add, edit, and delete books, with options for both table and card views. The app features a modern **dark theme** styled with **TailwindCSS** and is fully responsive across devices.  
 
 ---
 
-## Tech Stack & Tools
-
-### Frontend
-- **React 18** – UI library  
-- **Vite** – Fast frontend build tool  
-- **TailwindCSS** – Utility-first CSS framework  
-- **React Router** – Client-side routing  
-- **Axios** – API requests  
-- **React Icons** – SVG icons  
-
-### Backend
-- **Node.js** – Runtime environment  
-- **Express.js** – Web framework for API endpoints  
-- **MongoDB** – NoSQL database  
-- **Mongoose** – MongoDB ODM for schema and data management  
-
-### Development Tools
-- **Postman** – API testing (optional)  
+## Features  
+- Add books with title, author, and publish year  
+- Edit or delete books  
+- Switch between table and card display modes  
+- Modal for quick book details  
+- Dark theme with TailwindCSS styling  
+- Responsive layout across screen sizes  
 
 ---
 
-## Installation
+## Development Time  
+This project took a little under one week, with about **7–8 hours** of active development. Most of the time went into connecting the frontend and backend through RESTful APIs and designing responsive components with TailwindCSS.  
 
-1. Clone the repository:
+---
 
-```bash
-git clone https://github.com/yourusername/books-library.git
-cd books-library
-````
+## Demo  
+Video walkthrough: https://drive.google.com/file/d/1LDZ6FLlLHyfMJusCO8mFxq4JD9I0UdI0/view?usp=sharing
 
-2. Install frontend dependencies:
+---
 
-```bash
-cd client
+## Run Locally  
+
+# 1. Clone the repository
+git clone https://github.com/yourusername/personal-library.git
+cd personal-library
+
+# 2. Backend Setup
+cd backend
 npm install
-```
+npm run dev
+# Backend will start at http://localhost:5555
 
-3. Install backend dependencies:
-
-```bash
-cd ../server
+# 3. Frontend Setup (open a new terminal tab/window)
+cd frontend
 npm install
-```
-
-4. Start development servers:
-
-* Backend:
-
-```bash
 npm run dev
-```
-
-* Frontend:
-
-```bash
-cd ../client
-npm run dev
-```
-
-The frontend will run at `http://localhost:5173` and the backend at `http://localhost:5555` (or as configured).
-
----
-
-## Production Build
-
-Create an optimized frontend build:
-
-```bash
-cd client
-npm run build
-```
-
-Serve backend and frontend together in production using your preferred method (e.g., **Vercel + Render**, **Heroku**, or **Netlify**).
-
----
-
-## Backend API
-
-The app requires a backend API for book data. Example endpoint:
-
-```
-GET http://localhost:5555/books
-```
-
-Example JSON response:
-
-```json
-{
-  "data": [
-    {
-      "_id": "1",
-      "title": "Book Title",
-      "author": "Author Name",
-      "publishYear": 2023
-    }
-  ]
-}
-```
-
-> Replace the API URL with the deployed backend URL for production.
-
----
-
-## Deployment
-
-Recommended deployment platforms:
-
-* **Frontend:** Vercel, Netlify, GitHub Pages
-* **Backend:** Render, Railway, Heroku
-
-**Tip:** Ensure the backend API URL is updated in the frontend for live deployment.
-
----
-
-## Recommended Vite Plugins
-
-* `@vitejs/plugin-react` – Babel-based Fast Refresh
-* `@vitejs/plugin-react-swc` – SWC-based Fast Refresh for faster builds
-
----
-
-## License
-
-This project is open-source under the **MIT License**.
+# Frontend will run at http://localhost:5173
 
