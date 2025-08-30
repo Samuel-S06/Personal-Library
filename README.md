@@ -27,8 +27,8 @@ Video walkthrough: https://drive.google.com/file/d/1LDZ6FLlLHyfMJusCO8mFxq4JD9I0
 ## Run Locally  
 
 ### 1. Clone the repository
-- git clone https://github.com/yourusername/personal-library.git
-- cd personal-library
+- git clone https://github.com/Samuel-S06/Personal-Library.git
+- cd Personal-Library
 
 ### 2. Backend Setup
 - cd backend
